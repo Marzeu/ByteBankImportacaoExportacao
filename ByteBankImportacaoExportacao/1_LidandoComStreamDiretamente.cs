@@ -23,7 +23,6 @@ namespace ByteBankImportacaoExportacao
                 {
                     numeroDeBytesLidos = fluxoDoArquivo.Read(buffer, 0, 1024);
 
-
                     EscreverBuffer(buffer, numeroDeBytesLidos);
                 }
             }
