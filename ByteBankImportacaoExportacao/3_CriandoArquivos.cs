@@ -33,10 +33,9 @@ namespace ByteBankImportacaoExportacao
             using (var escritor = new StreamWriter(fluxoDeArquivo))
             {
                 escritor.Write("456,654323,500.0,Pedro Pascal");
-
-
             }
-
         }
+
+
     }
 }
